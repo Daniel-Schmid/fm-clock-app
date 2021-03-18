@@ -1,9 +1,12 @@
+import Layout from './components/Layout'
 import QuoteBlock from './components/QuoteBlock'
 
 function App() {
   return (
     <div className="App">
-      <QuoteBlock />
+      <Layout>
+        <QuoteBlock />
+      </Layout>
     </div>
   );
 }

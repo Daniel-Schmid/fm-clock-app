@@ -6,7 +6,7 @@ function QuoteBlock () {
   const [quote, setQuote] = useState('');
 
   function getData () {
-    axios.get('http://api.quotable.io/random').then(function (response) {
+    axios.get('https://api.quotable.io/random').then(function (response) {
       let result = response.data;
       setQuote(result);
     })

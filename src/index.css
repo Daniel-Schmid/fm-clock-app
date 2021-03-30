@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  .large-time {
+    font-size: 120px;
+  }
+  .extra-info-toggle-active{
+    bottom: 590px;
+    right: 64px;
+  }
+  .extra-info-toggle {
+    bottom: 60px;
+    right: 64px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .large-time {
+    font-size: 200px;
+  }
+  .extra-info-toggle-active {
+    bottom: 380px;
+    right: 150px;
+  }
+  .extra-info-toggle {
+    bottom: 100px;
+    right: 150px;
+  }
+}
+
+.extra-info-toggle-active {
+  position: absolute;
+}
+
+.extra-info-toggle {
+  position: absolute;
+}

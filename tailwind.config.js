@@ -5,11 +5,13 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'desktop-day': "url('./assets/desktop/bg-image-daytime.jpg')",
+        'desktop-night': "url('./assets/desktop/bg-image-nighttime.jpg')",
        })
     },
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
     },
+    
   },
   variants: {
     extend: {},

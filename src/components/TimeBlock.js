@@ -10,7 +10,7 @@ function TimeBlock() {
   useEffect(() => {
     let result =
     setInterval(() => {
-     axios.get('http://worldtimeapi.org/api/ip').then(function (response) {
+     axios.get('https://worldtimeapi.org/api/ip').then(function (response) {
       result = response.data;
       setTimeData(result);
     })

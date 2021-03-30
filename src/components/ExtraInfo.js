@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios'
 import ArrowIcon from '../assets/desktop/icon-arrow-up.svg'
 
 function ExtraInfo({timeZone, yearDay, weekDay, weekNumber, hour}) {
@@ -20,7 +19,7 @@ function ExtraInfo({timeZone, yearDay, weekDay, weekNumber, hour}) {
     } else {
       setisMorning(false)
     }
-  }, []);
+  }, [hour]);
 
 
   return(
